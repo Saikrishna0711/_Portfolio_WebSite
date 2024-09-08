@@ -40,10 +40,10 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
+            <span className="bannerIcon" onClick={() => window.open("https://github.com/Saikrishna0711/", "_blank")}>
               <SiGithub />
             </span>
-            <span className="bannerIcon">
+            <span className="bannerIcon" onClick={() => window.open("https://www.linkedin.com/in/saikrishnapopuri2000/", "_blank")}>
               <FaLinkedinIn />
             </span>
           </div>

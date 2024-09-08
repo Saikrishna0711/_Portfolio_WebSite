@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
 
 const ContactLeft = () => {
@@ -25,10 +25,10 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaFacebookF />
+          <span className="bannerIcon" onClick={() => window.open("https://www.linkedin.com/in/saikrishnapopuri2000/", "_blank")}>
+            <FaLinkedin />
           </span>
-          <span className="bannerIcon">
+          <span className="bannerIcon" onClick={() => window.open("https://github.com/Saikrishna0711/", "_blank")}>
             <FaGithub />
           </span>
         </div>
