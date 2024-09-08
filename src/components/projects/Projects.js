@@ -16,42 +16,21 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
-        <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
-        />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
-        <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-        />
+      <ProjectsCard
+  title="Expense Tracker"
+  des="A simple and intuitive application to track daily expenses. Built with React.js, it allows users to add, edit, and delete expenses, categorize them, and view graphical summaries for better financial planning. Data is persisted using local storage."
+  src={projectOne}
+/>
+<ProjectsCard
+  title="STL Loader"
+  des="Developed an STL loader using Three.js, allowing users to load and visualize 3D models in STL format directly in a web browser. Features include zoom, pan, and rotate for easy model inspection, along with surface shading for better clarity."
+  src={projectTwo}
+/>
+<ProjectsCard
+  title="CADIQ"
+  des="A WebGL-based viewer for 3D CAD models using Three.js and React.js. Supports glb and gltf formats, providing real-time visualization and interactive features like part highlighting using ray caster. Integrated with Node.js for report generation and server-side functionalities."
+  src={projectThree}
+/>
       </div>
     </section>
   );
