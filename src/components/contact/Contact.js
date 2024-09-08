@@ -29,7 +29,7 @@ const Contact = () => {
               method="POST"
               data-netlify="true"
               onSubmit={handleSend}
-              className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5"
+              className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5" netlify
             >
               {/* Hidden input required for Netlify */}
               <input type="hidden" name="form-name" value="contact" />
