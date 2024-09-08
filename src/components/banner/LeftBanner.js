@@ -27,7 +27,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        Highly motivated and skilled software developer with 2.5 years of professional 
+        Highly motivated and skilled software developer with 3 years of professional 
         experience in web development, specializing in React, HTML, CSS, and JavaScript. 
         Robust experience in desktop application development using Python and C++.  
         Eager to contribute to dynamic development teams and drive impactful projects from 
