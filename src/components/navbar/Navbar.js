@@ -2,9 +2,10 @@ import React, { useState } from 'react'
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import {logo} from "../../assets/index"
 import { navLinksdata } from '../../constants';
+import { SiGithub } from "react-icons/si";
 
 const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
@@ -45,9 +46,11 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                Highly motivated and skilled software developer with 3 years of professional 
+                experience in web development, specializing in React, HTML, CSS, and JavaScript. 
+                Robust experience in desktop application development using Python and C++.  
+                Eager to contribute to dynamic development teams and drive impactful projects from 
+                conception through to completion.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -75,15 +78,12 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <span className="bannerIcon">
-                    <FaFacebookF />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
-                  </span>
+                  <span className="bannerIcon" onClick={() => window.open("https://github.com/Saikrishna0711/", "_blank")}>
+              <SiGithub />
+            </span>
+            <span className="bannerIcon" onClick={() => window.open("https://www.linkedin.com/in/saikrishnapopuri2000/", "_blank")}>
+              <FaLinkedinIn />
+            </span>
                 </div>
               </div>
               <span
